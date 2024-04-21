@@ -1,0 +1,32 @@
+body {
+    font-family: "Inter";
+}
+
+.global {
+    height: 100vh;
+    overflow: auto;
+}
+
+.grey-and-bold {
+    color: #8B8B8B;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.nav-button {
+    border: none;
+    padding: 10px 16px;
+    background-color: #1E68FF;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border: 0.5px solid lightGrey;
+}
