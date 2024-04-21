@@ -49,6 +49,7 @@ const MiddleSection = () => {
                 </div>
             </div>
             <div className="middle-section-image-container">
+                <div className="middle-section-image-border"></div> 
                 <img className="middle-section-main-image" src={mainImg}></img>
                 <img className="middle-section-performance-image" src={performanceImg}></img>
                 <img className="middle-section-ratings-image" src={ratingsImg}></img>
