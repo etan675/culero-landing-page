@@ -5,6 +5,11 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    @media (max-width: 1023px) {
+        font-size: 14px;
+    }
 }
 
 .landing-footer-heading {
@@ -12,13 +17,9 @@
 }
 
 .landing-footer-content {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-
     display: flex;
     justify-content: center;
-
-    padding-bottom: 30px;
+    height: 100%;
 
     svg {
         width: 30px;
@@ -28,16 +29,16 @@
 .landing-footer-content-block {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
-    font-size: 0.7rem;
+    font-size: 66%;
+    color: #4C4C4C;
     font-weight: bold;
-    max-width: 150px;
+    max-width: 200px;
     margin: 0 20px;
 }
 
 .landing-footer-content-block-text {
-    color: #4C4C4C;
-    font-size: 0.6rem;
     font-weight: normal;
 }
 
@@ -47,14 +48,10 @@
 
 .landing-footer-terms {
     display: flex;
-    height: 100%;
     align-items: center;
     justify-content: center;
     color: #3F3F3F;
-    padding-bottom: 10px;
-    font-size: 0.8rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 72%;
 }
-
-
-
-

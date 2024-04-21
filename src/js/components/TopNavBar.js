@@ -15,7 +15,7 @@ const TopNavBar = () => {
                     <SearchBar />
                 </div>
                 <div className="top-nav-login-container">
-                    <div style={{ fontSize: '12px'}}>
+                    <div>
                         <span><a href="">Sign in</a></span>
                         <span> / </span>
                         <span><a href="">Sign up</a></span>

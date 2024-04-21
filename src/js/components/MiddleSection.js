@@ -10,24 +10,21 @@ const MiddleSection = () => {
     return (
         <div className="middle-section">
             <div className="middle-section-info">
-                <div className="middle-section-sub-heading">
-                    <div className="grey-and-bold middle-section-section-gap">
+                <div>
+                    <div className="grey-and-bold middle-section-welcome-heading">
                         Welcome to Culero
                     </div>
                     <div className="middle-section-heading-large">
                         Review, Reflect, Connect.
                     </div>
                 </div>
-                <div 
-                    style={{ color: "#4E4E4E" }} 
-                    className="middle-section-sub-heading middle-section-section-gap"
-                >
+                <div style={{ color: "#4E4E4E" }}>
                     The new approach to bottom up management.
                 </div>
-                <div className="middle-section-sub-heading">
+                <div>
                     <a href="">
                         <button 
-                            style={{ width: "60%", maxWidth: "250px" }}
+                            style={{ maxWidth: "250px" }}
                             className="nav-button"
                         >
                             Get started today
